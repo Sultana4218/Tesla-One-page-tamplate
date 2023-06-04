@@ -61,19 +61,24 @@
   .head{
     display: flex;
     justify-content: center;
-    
+    justify-content: space-between;
   }
  
   .head img, 
   .head p {
-    margin-right: 70px;
+    margin-right: 50px;
     padding: 8px;
-    
   } 
+  .logo{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+  }
  .contact{
    border: 2px solid black;
    font-weight: bold;
    font-size: 20px;
+   
  }
 
  /* main-part start */
@@ -102,7 +107,7 @@
     background-color:var(--secondary-bgcolor);
     border: none;
     color: white;
-    padding: 20px 52px;
+    padding: 20px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -114,7 +119,8 @@
     text-align: center;
     background-color: var(--secondary-bgcolor);
     color: white;
-    padding: 30px;
+    padding-bottom: 10px;
+   
   }
   .main-body h2{
     font-size: 40px;
@@ -129,7 +135,7 @@
     border: 2px solid white;
     background-color: #0e0d0d;
     color: white;
-    padding: 20px 52px;
+    padding: 18px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -139,13 +145,11 @@
    /* body-part end */
    /* card-part start */
    .all-card{
-    padding: 30px;
     margin-top: 20px;
    }
    .cards{
     display: flex;
     justify-content: center;
-  
    }
    .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -175,8 +179,7 @@
    /* card-part end */
    /* airoplan-part start */
    .airoplan{
-    padding: 30px 20px;
-    margin-left: 100px;
+    padding: 35px;
     text-align: center;
    }
    .airoplan h2{
@@ -266,7 +269,6 @@
    .coustomer-card{
     display: flex;
     justify-content: center;
-    padding-left:20px ;
    }
    
    
@@ -276,15 +278,13 @@
     text-align: center;
     border: 2px solid var(--secondary-bgcolor);
     border-radius: 10px;
-    padding: 15px 20px;
+    padding: 10px;
     position: relative;
     margin-left: 10px;
   }
   .card-2 img{
     margin-left: 50px;
-   
    }
-
    .card-2 h4{
     font-size: 30px;
     font-weight: bold;
@@ -298,7 +298,6 @@
     font-weight: bold ;
     text-align: center;
     padding: 20px 20px;
-    margin: 20px;
   }
   .contact-form{
     display: flex;
@@ -307,10 +306,8 @@
     
   }
   .contact-form img{
-      
        height:500px;
        width: 500px;
-    
   }
   .contact-form h3{
     font-size: 40px;
@@ -332,9 +329,10 @@
     .footer-part{
         display: flex;
         justify-content: center;
-        padding: 20px;
-        margin: 30px;
     }
+    .footer-part div{
+      padding: 20px;
+  }
 
     .footer-part h3{
         font-size: 40px;
