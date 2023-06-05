@@ -190,8 +190,6 @@
    }
    .airoplan p{
     font-size: 20px;
-   
-
    }
    .airoplan span{
     text-decoration: underline;
@@ -202,8 +200,7 @@
   .hill{
     display: flex;
     justify-content: center;
-    padding: 30px;
-    margin: 50px;
+    padding: 20px;
   }
   
   
@@ -232,7 +229,7 @@
     display: flex;
     justify-content: center;
     padding: 30px;
-    margin: 50px;
+   
   }
   .place h2{
     font-size: 35px;
@@ -247,16 +244,12 @@
   .img{
     padding: 20px;
   }
-  .place img{
-    height:400px;
-   width: 700px;
-  }
  
    /* place-part end */
  
    /* coustomer-card start */
    .coustomer{
-    padding: 30px 20px;
+    padding: 30px;
     margin-top: 30px;
    }
    .coustomer h2{
@@ -273,8 +266,8 @@
    
    
    .card-2 {
-    width: 300px;
-    height:400px;
+    width: 250px;
+    height:350px;
     text-align: center;
     border: 2px solid var(--secondary-bgcolor);
     border-radius: 10px;
@@ -283,7 +276,7 @@
     margin-left: 10px;
   }
   .card-2 img{
-    margin-left: 50px;
+    margin-left: 30px;
    }
    .card-2 h4{
     font-size: 30px;
