@@ -8,6 +8,7 @@
     /* header part-sratr */
     .head{
       flex-wrap: wrap;
+      padding: 5px;
     }
     .header{
       font-size: 10px;
@@ -21,11 +22,13 @@
     } 
     .logo{
       flex-wrap: wrap;
-      width: 100%;
-      padding: 2px;
+    }
+    .logo a{
+      padding: 5px;
     }
     .contact{
       align-items: center;
+      font-size: 15px;
     }
     /* -main-part start */
     .lorem{
@@ -96,6 +99,9 @@
     }
     .place{
       flex-wrap: wrap;
+    }
+    .text{
+      padding: 10px;
     }
     .place h2{
       font-size: 15px;
