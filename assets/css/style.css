@@ -259,6 +259,9 @@ ul li {
 .choose-place .choose-lorem {
   margin-top: 60px;
 }
+.choose-lorem p{
+  font-size: 20px;
+}
 .choose-place .choose-lorem h6 {
   color: var(--primary-color);
 }

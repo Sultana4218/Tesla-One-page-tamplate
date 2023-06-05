@@ -55,16 +55,16 @@
   }
   /* hero_part css start */
   .hero {
-    padding: 100px 0px 120px;
+    padding: 140px 0px 230px;
   }
   .hero .text {
     width: 100%;
   }
   .hero .text h2 {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
   .hero-btn{
-    padding-bottom: 10px;
+    padding-bottom:25px;
   }
   .hero .hero-img {
     width: 100%;
@@ -95,6 +95,10 @@
   /*aeroplne-part css start */
   .aeroplne-text img {
     width: 60px;
+    padding-top: 20px;
+  }
+  .aeroplne-text {
+    width: 80%;
   }
   /* lakeview-part css start */
   .lakeview-text {
