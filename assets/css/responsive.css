@@ -56,7 +56,7 @@
   }
   /* hero_part css start */
   .hero {
-    padding: 140px 0px 230px;
+    padding: 100px 0px 120px;
   }
   .hero .text {
     width: 100%;
@@ -81,11 +81,11 @@
   /* hill-part css start */
   .hill .card {
     width: 100%;
-    margin-top: 35px;
+    margin-top: 20px;
   }
   .hill .card h5 {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   .hill .card img {
     margin-bottom: 40px;
@@ -96,11 +96,8 @@
   /*aeroplne-part css start */
   .aeroplne-text img {
     width: 60px;
-    padding-top: 10px;
   }
-  .aeroplne-text {
-    width: 80%;
-  }
+  
   /* lakeview-part css start */
   .lakeview-text {
     flex-wrap: wrap;
@@ -113,13 +110,13 @@
     padding-bottom: 0px;
   }
  .choosen-place .choose-lorem {
-    margin-top: 35px;
+    margin-top: 30px;
   }
   .choosen-place .choose-lorem h6 {
     margin-bottom: 10px;
   }
   .choose-img img {
-    margin-top: 35px;
+    margin-top: 20px;
   }
   /* customer-part css start */
   .customer .customer-card {
