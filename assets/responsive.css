@@ -11,6 +11,7 @@
     }
     .header{
       font-size: 10px;
+      padding: 0;
     }
    
     .head img, 
@@ -65,6 +66,10 @@
       font-size: 15px;
     }
     /* airoplan part start */
+    .airoplan{
+      padding: 0;
+      padding-top: 20px;
+    }
     .plane h2{
       font-size: 15px;
     }
