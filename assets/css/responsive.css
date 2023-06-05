@@ -95,7 +95,7 @@
   /*aeroplne-part css start */
   .aeroplne-text img {
     width: 60px;
-    padding-top: 20px;
+    padding-top: 10px;
   }
   .aeroplne-text {
     width: 80%;
@@ -135,7 +135,7 @@
   }
   .contact .form {
     width: 100%;
-    padding-right: 0%;
+    padding-right: 0;
   }
   .contact .from-img {
     width: 100%;
@@ -153,6 +153,6 @@
     flex-wrap: wrap;
   }
   .footer .footer-link .links .link {
-    width: 50%;
+    width: 100%;
   }
 }
