@@ -228,7 +228,6 @@
   .place{
     display: flex;
     justify-content: center;
-    padding: 30px;
    
   }
   .place h2{
@@ -241,9 +240,6 @@
     font-weight: bold;
   }
   
-  .img{
-    padding: 20px;
-  }
  
    /* place-part end */
  

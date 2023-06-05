@@ -91,6 +91,9 @@
       font-size: 10px;
     }
     /* choose-place part start */
+    .choose-place{
+      padding: 0;
+    }
     .place{
       flex-wrap: wrap;
     }
