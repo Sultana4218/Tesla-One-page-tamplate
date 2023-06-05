@@ -182,7 +182,9 @@ ul li {
 }
 /*  main-part css end  */
 /* card-part css start  */
-
+.fill{
+  padding-top: 150px 0;
+}
 .hill .card {
   width: 375px;
 }
@@ -212,6 +214,7 @@ ul li {
 
 .aeroplne .container {
   align-items: center;
+  padding: 150px 0;
 }
 .aeroplne .aeroplne-text {
   width: 783px;
