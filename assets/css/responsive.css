@@ -37,12 +37,13 @@
   }
   /* header_part  start */
   .header .head {
-    width: 100px;
+    width: 100%;
   }
   .header .nav a {
-    margin-left: 10px;
+    margin-left: 20px;
     font-size: 13.83px;
     font-weight: 400;
+    
   }
   .header .nav a:hover {
     font-weight: 500;
