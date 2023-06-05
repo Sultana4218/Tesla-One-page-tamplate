@@ -63,6 +63,9 @@
   .hero .text h2 {
     margin-bottom: 15px;
   }
+  .hero-btn{
+    padding-bottom: 10px;
+  }
   .hero .hero-img {
     width: 100%;
   }
@@ -97,7 +100,7 @@
   .lakeview-text {
     flex-wrap: wrap;
   }
-  .blog_right_content_left h5 {
+  .lakeview-text h5 {
     line-height: 30px;
   }
   /* choosen_part css start */
