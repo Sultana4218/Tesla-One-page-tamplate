@@ -200,6 +200,7 @@
   .hill{
     display: flex;
     justify-content: center;
+    gap:10px;
     padding: 20px;
   }
   
@@ -210,6 +211,7 @@
         padding: 20px;
        
     }
+   
     .hill-details h2{
         font-size:30px;
         text-decoration: underline;
