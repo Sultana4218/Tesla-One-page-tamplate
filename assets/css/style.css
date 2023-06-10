@@ -349,10 +349,10 @@ ul li {
   bottom: 35%;
 }
 .owl-prev {
-  left: -30px;
+  left: -20px;
 }
 .owl-next {
-  right: -30px;
+  right: -20px;
 }
 .owl-prev span,
 .owl-next span {
