@@ -71,8 +71,9 @@
   /* header_part  start */
   .navber .link,
   .navber .theam_btn{
-    display: none;
+     display: none;
   }
+ 
   .navber .toggle_btn{
     display: block;
   }
