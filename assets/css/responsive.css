@@ -11,17 +11,591 @@
 /* lg */
 /* ===== medium devices (tablets, less than 1025px) ===== */
 @media (max-width: 1024px) {
+  .container {
+    width: 990px;
+    padding: 0px 15px;
+  }
+  h1 {
+    font-size: 42px;
+    line-height: 43px;
+  }
+  h2 {
+    font-size: 40px;
+    line-height: 41px;
+  }
+  h3 {
+    font-size: 37px;
+    line-height: 36px;
+  }
+  h4 {
+    font-size: 35px;
+  }
+  h5 {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  img {
+    width: 100%;
+    vertical-align: center;
+  }
+  
+  .section_padding {
+    padding: 70px 0;
+  }
+  .theam_btn {
+    font-size: 16px;
+    padding: 10px 40px;
+  }
+  /* header_part  start */
+  .navber .link,
+  .navber .theam_btn{
+     display: none;
+  }
  
+  .navber .toggle_btn{
+    display: block;
+  }
+  .navber .logo{
+   width: 50%;
+  }
+  .dropdown-manu{
+    display: block;
+  }
+  .dropdown-btn{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .drop-contact-btn{
+    padding: 5px;
+    font-size: 8px;
+  }
+  .drop-contact-btn a{
+    padding: 1px;
+  }
+  /* hero_part css start */
+  .hero {
+    padding: 80px 0px 80px;
+  }
+  .hero .text {
+    width: 100%;
+  }
+  .hero .text h2 {
+    margin-bottom: 25px;
+  }
+  .hero-btn{
+    padding-bottom:25px;
+  }
+  .hero .hero-img {
+    width: 100%;
+  }
+  .hero-img img {
+    width: 100%;
+    margin-top: 20px;
+  }
+  /* main-part css start */
+  .main .lorem h3 {
+    margin-bottom: 20px;
+  }
+  /* hill-part css start */
+  .hill{
+    padding: 0;
+  }
+  .hill .card {
+    width: 100%;
+    padding: 0 0 20px;
+    margin-top: 30px;
+  }
+  .hill .card h5 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .hill .card img {
+    margin-bottom: 40px;
+  }
+  .hill .card h5::before {
+    top: -20px;
+  }
+  /*aeroplne-part css start */
+
+  .aeroplne .container {
+    padding: 0;
+  }
+  .aeroplne-text img {
+    padding-top: 50px;
+    width: 60px;
+  }
+ 
+  /* lakeview-part css start */
+ 
+  .lakeview-text h5 {
+    line-height: 30px;
+  }
+  .lakeview {
+    padding: 50px 30px;
+  }
+
+  
+  .lakeview .container{
+    flex-wrap: wrap;
+  }
+  /* choosen_part css start */
+  .choose-place .container{
+    flex-wrap: wrap;
+  }
+  .choose-contant{
+    padding-right: 80px;
+  }
+ .choosen-place h4 {
+    padding-bottom: 0px;
+  }
+ .choosen-place .choose-lorem {
+    margin-top: 30px;
+  }
+  .choosen-place .choose-lorem h6 {
+    margin-bottom: 10px;
+  }
+  .choose-img img {
+    margin-top: 20px;
+  }
+  /* customer-part css start */
+  .customer .customer-card {
+    width: 100%;
+    padding: 30px 35px;
+  }
+  .customer .customer-card img {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+
+  /* contact_part css start */
+  .contact{
+    padding: 0;
+  }
+  .contact h3 {
+    margin-bottom: 35px;
+  }
+  .contact .form {
+    width: 100%;
+    padding-right: 0;
+  }
+  .contact .from-img {
+    width: 100%;
+    height: 100%;
+    margin-top: 35px;
+    padding-bottom: 10px;
+  }
+  .contact form a.theam_btn {
+    width: 200px;
+  }
+  /* footer-part css start */
+  .footer{
+    padding-top: 30px;
+  }
+  .footer .footer-logo {
+    width: 100%;
+  }
+  .footer .footer-link .links {
+    margin-top: 0px;
+    padding-left:10px;
+    
+  }
+  .footer .footer-link .links .link {
+    width: 100%;
+  }
 }
+
 /* md */
 /* ===== small devices (landscape phones, less than 768px) ===== */
 @media (max-width: 767px) {
+  .container {
+    width: 730px;
+    flex-wrap: wrap;
+    padding: 0px 15px;
+  }
+  h1 {
+    font-size: 42px;
+    line-height: 43px;
+  }
+  h2 {
+    font-size: 40px;
+    line-height: 41px;
+  }
+  h3 {
+    font-size: 37px;
+    line-height: 36px;
+  }
+  h4 {
+    font-size: 35px;
+  }
+  h5 {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  img {
+    width: 100%;
+    vertical-align: center;
+  }
+  
+  .section_padding {
+    padding: 70px 0;
+  }
+  .theam_btn {
+    font-size: 16px;
+    padding: 10px 40px;
+  }
+  /* header_part  start */
+  .navber .link,
+  .navber .theam_btn{
+     display: none;
+  }
  
+  .navber .toggle_btn{
+    display: block;
+  }
+  .navber .logo{
+   width: 50%;
+  }
+  .dropdown-manu{
+    display: block;
+  }
+  .dropdown-btn{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .drop-contact-btn{
+    padding: 5px;
+    font-size: 8px;
+  }
+  .drop-contact-btn a{
+    padding: 1px;
+  }
+  /* hero_part css start */
+  .hero {
+    padding: 80px 0px 80px;
+  }
+  .hero .text {
+    width: 100%;
+  }
+  .hero .text h2 {
+    margin-bottom: 25px;
+  }
+  .hero-btn{
+    padding-bottom:25px;
+  }
+  .hero .hero-img {
+    width: 100%;
+  }
+  .hero-img img {
+    width: 100%;
+    margin-top: 20px;
+  }
+  /* main-part css start */
+  .main .lorem h3 {
+    margin-bottom: 20px;
+  }
+  /* hill-part css start */
+  .hill{
+    padding: 0;
+  }
+  .hill .card {
+    width: 100%;
+    padding: 0 0 20px;
+    margin-top: 30px;
+  }
+  .hill .card h5 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .hill .card img {
+    margin-bottom: 40px;
+  }
+  .hill .card h5::before {
+    top: -20px;
+  }
+  /*aeroplne-part css start */
+
+  .aeroplne .container {
+    padding: 0;
+  }
+  .aeroplne-text img {
+    padding-top: 50px;
+    width: 60px;
+  }
+ 
+  /* lakeview-part css start */
+  .lakeview-text {
+    flex-wrap: wrap;
+  }
+  .lakeview-text h5 {
+    line-height: 30px;
+  }
+  .lakeview-contant-img1{
+    width: 100%;
+    height: 455px;
+  }
+  .lakeview .lakeview-contant-img {
+    margin-bottom: 0;
+  }
+  .lakeview{
+    padding-bottom: 80px;
+  }
+  /* choosen_part css start */
+  .choose-contant{
+    padding-right: 80px;
+  }
+ .choosen-place h4 {
+    padding-bottom: 0px;
+  }
+ .choosen-place .choose-lorem {
+    margin-top: 30px;
+  }
+  .choosen-place .choose-lorem h6 {
+    margin-bottom: 10px;
+  }
+  .choose-img img {
+    margin-top: 20px;
+  }
+  /* customer-part css start */
+  .customer .customer-card {
+    width: 100%;
+    padding: 30px 35px;
+  }
+  .customer .customer-card img {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+
+  /* contact_part css start */
+  .contact{
+    padding: 0;
+  }
+  .contact h3 {
+    margin-bottom: 35px;
+  }
+  .contact .form {
+    width: 100%;
+    padding-right: 0;
+  }
+  .contact .from-img {
+    width: 100%;
+    height: 100%;
+    margin-top: 35px;
+    padding-bottom: 10px;
+  }
+  .contact form a.theam_btn {
+    width: 200px;
+  }
+  /* footer-part css start */
+  .footer{
+    padding-top: 30px;
+  }
+  .footer .footer-logo {
+    width: 100%;
+  }
+  .footer .footer-link .links {
+    margin-top: 0px;
+    
+  }
+  .footer .footer-link .links .link {
+    width: 100%;
+  }
 }
 /* sm */
 /* ===== x-small devices (portrait phones, less than 641px) ===== */
 @media (max-width: 640px) {
+  .container {
+    width: 600px;
+    flex-wrap: wrap;
+    padding: 0px 15px;
+  }
+  h1 {
+    font-size: 42px;
+    line-height: 43px;
+  }
+  h2 {
+    font-size: 40px;
+    line-height: 41px;
+  }
+  h3 {
+    font-size: 37px;
+    line-height: 36px;
+  }
+  h4 {
+    font-size: 35px;
+  }
+  h5 {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  img {
+    width: 100%;
+    vertical-align: center;
+  }
+  
+  .section_padding {
+    padding: 70px 0;
+  }
+  .theam_btn {
+    font-size: 16px;
+    padding: 10px 40px;
+  }
+  /* header_part  start */
+  .navber .link,
+  .navber .theam_btn{
+     display: none;
+  }
  
+  .navber .toggle_btn{
+    display: block;
+  }
+  .navber .logo{
+   width: 50%;
+  }
+  .dropdown-manu{
+    display: block;
+  }
+  .dropdown-btn{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .drop-contact-btn{
+    padding: 5px;
+    font-size: 8px;
+  }
+  .drop-contact-btn a{
+    padding: 1px;
+  }
+  /* hero_part css start */
+  .hero {
+    padding: 80px 0px 80px;
+  }
+  .hero .text {
+    width: 100%;
+  }
+  .hero .text h2 {
+    margin-bottom: 25px;
+  }
+  .hero-btn{
+    padding-bottom:25px;
+  }
+  .hero .hero-img {
+    width: 100%;
+  }
+  .hero-img img {
+    width: 100%;
+    margin-top: 20px;
+  }
+  /* main-part css start */
+  .main .lorem h3 {
+    margin-bottom: 20px;
+  }
+  /* hill-part css start */
+  .hill{
+    padding: 0;
+  }
+  .hill .card {
+    width: 100%;
+    padding: 0 0 20px;
+    margin-top: 30px;
+  }
+  .hill .card h5 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .hill .card img {
+    margin-bottom: 40px;
+  }
+  .hill .card h5::before {
+    top: -20px;
+  }
+  /*aeroplne-part css start */
+
+  .aeroplne .container {
+    padding: 0;
+  }
+  .aeroplne-text img {
+    padding-top: 50px;
+    width: 60px;
+  }
+ 
+  /* lakeview-part css start */
+  .lakeview-text {
+    flex-wrap: wrap;
+  }
+  .lakeview-text h5 {
+    line-height: 30px;
+  }
+  .lakeview-contant-img1{
+    width: 100%;
+    height: 455px;
+  }
+  .lakeview .lakeview-contant-img {
+    margin-bottom: 0;
+  }
+  .lakeview{
+    padding-bottom: 80px;
+  }
+  /* choosen_part css start */
+  .choose-contant{
+    padding-right: 80px;
+  }
+ .choosen-place h4 {
+    padding-bottom: 0px;
+  }
+ .choosen-place .choose-lorem {
+    margin-top: 30px;
+  }
+  .choosen-place .choose-lorem h6 {
+    margin-bottom: 10px;
+  }
+  .choose-img img {
+    margin-top: 20px;
+  }
+  /* customer-part css start */
+  .customer .customer-card {
+    width: 100%;
+    padding: 30px 35px;
+  }
+  .customer .customer-card img {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+
+  /* contact_part css start */
+  .contact{
+    padding: 0;
+  }
+  .contact h3 {
+    margin-bottom: 35px;
+  }
+  .contact .form {
+    width: 100%;
+    padding-right: 0;
+  }
+  .contact .from-img {
+    width: 100%;
+    margin-top: 35px;
+  }
+  .contact form a.theam_btn {
+    width: 200px;
+  }
+  /* footer-part css start */
+  .footer{
+    padding-top: 50px;
+  }
+  .footer .footer-logo {
+    width: 100%;
+  }
+  .footer .footer-link .links {
+    margin-top: 0px;
+    
+  }
+  .footer .footer-link .links .link {
+    width: 100%;
+  }
 }
 /* xs */
 /* ===== x-small devices (portrait phones, less than 476px) ===== */
@@ -62,12 +636,166 @@
     font-size: 16px;
     padding: 10px 40px;
   }
+  /* header_part  start */
+  .navber .link,
+  .navber .theam_btn{
+     display: none;
+  }
+ 
+  .navber .toggle_btn{
+    display: block;
+  }
+  .navber .logo{
+   width: 50%;
+  }
+  .dropdown-manu{
+    display: block;
+  }
+  .dropdown-btn{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .drop-contact-btn{
+    padding: 5px;
+    font-size: 8px;
+  }
+  .drop-contact-btn a{
+    padding: 1px;
+  }
+  /* hero_part css start */
+  .hero {
+    padding: 80px 0px 80px;
+  }
+  .hero .text {
+    width: 100%;
+  }
+  .hero .text h2 {
+    margin-bottom: 25px;
+  }
+  .hero-btn{
+    padding-bottom:25px;
+  }
+  .hero .hero-img {
+    width: 100%;
+  }
+  .hero-img img {
+    width: 100%;
+    margin-top: 20px;
+  }
+  /* main-part css start */
+  .main .lorem h3 {
+    margin-bottom: 20px;
+  }
+  /* hill-part css start */
+  .hill{
+    padding: 0;
+  }
+  .hill .card {
+    width: 100%;
+    padding: 0 0 20px;
+    margin-top: 30px;
+  }
+  .hill .card h5 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .hill .card img {
+    margin-bottom: 40px;
+  }
+  .hill .card h5::before {
+    top: -20px;
+  }
+  /*aeroplne-part css start */
+
+  .aeroplne .container {
+    padding: 0;
+  }
+  .aeroplne-text img {
+    padding-top: 50px;
+    width: 60px;
+  }
+ 
+  /* lakeview-part css start */
+  .lakeview-text {
+    flex-wrap: wrap;
+  }
+  .lakeview-text h5 {
+    line-height: 30px;
+  }
+  .lakeview-contant-img1{
+    width: 100%;
+    height: 455px;
+  }
+  .lakeview .lakeview-contant-img {
+    margin-bottom: 0;
+  }
+  .lakeview{
+    padding-bottom: 80px;
+  }
+  /* choosen_part css start */
+  .choose-contant{
+    padding-right: 80px;
+  }
+ .choosen-place h4 {
+    padding-bottom: 0px;
+  }
+ .choosen-place .choose-lorem {
+    margin-top: 30px;
+  }
+  .choosen-place .choose-lorem h6 {
+    margin-bottom: 10px;
+  }
+  .choose-img img {
+    margin-top: 20px;
+  }
+  /* customer-part css start */
+  .customer .customer-card {
+    width: 100%;
+    padding: 30px 35px;
+  }
+  .customer .customer-card img {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+
+  /* contact_part css start */
+  .contact{
+    padding: 0;
+  }
+  .contact h3 {
+    margin-bottom: 35px;
+  }
+  .contact .form {
+    width: 100%;
+    padding-right: 0;
+  }
+  .contact .from-img {
+    width: 100%;
+    height: 363px;
+    margin-top: 35px;
+  }
+  .contact form a.theam_btn {
+    width: 200px;
+  }
+  /* footer-part css start */
+  .footer .footer-logo {
+    width: 100%;
+  }
+  .footer .footer-link .links {
+    margin-top: 0px;
+    flex-wrap: wrap;
+  }
+  .footer .footer-link .links .link {
+    width: 100%;
+  }
   
 }
 /* xs */
 /* ===== x-small devices (portrait phones, less than 413px) ===== */
 
 @media (max-width: 412px) {
+ 
   .container {
     width: 360px;
     flex-wrap: wrap;
@@ -227,6 +955,7 @@
     width: 80px;
     margin-bottom: 10px;
   }
+
   /* contact_part css start */
   .contact{
     padding: 0;
@@ -257,4 +986,5 @@
   .footer .footer-link .links .link {
     width: 100%;
   }
+ 
 }
