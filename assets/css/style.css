@@ -343,15 +343,16 @@ ul li {
   justify-content: center;
   width: 40px;
   height: 40px;
-  border: 1px solid var(--secondary-color);
+  border: 1px solid var(--secondary-color) !important;
+  background-color: var(--primary-color) !important;
   position: absolute;
   bottom: 35%;
 }
 .owl-prev {
-  left: 40px;
+  left: -30px;
 }
 .owl-next {
-  right: 40px;
+  right: -30px;
 }
 .owl-prev span,
 .owl-next span {
