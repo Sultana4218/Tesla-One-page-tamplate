@@ -7,6 +7,8 @@
     <title>TESLA</title>
     <!-- css link -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- font awsom link -->
+    <link rel="stylesheet" href="./assets/css/font.all.min.css" />
     <!-- responsive link -->
     <link rel="stylesheet" href="./assets/css/responsive.css" />
   </head>
@@ -15,18 +17,38 @@
     <!-- header-part start -->
     <section class="header">
       <div class="container">
-        <div class="head">
+        <div class="navber">
+          <div class="logo">
           <a href="#"><img src="./assets/image/logo.png" alt="image" /></a>
         </div>
-        <nav class="nav">
-          <a href="#">HOME</a>
-          <a href="#">GUIDES</a>
-          <a href="#">FLIGHTS</a>
-          <a href="#">ABOUT</a>
-        </nav>
-        <div class="contact_btn">
+        <ul class="link">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">GUIDES</a></li>
+          <li><a href="#">FLIGHTS</a></li>
+          <li><a href="#">ABOUT</a></li>
+        </ul>
+          <div class="contact_btn">
           <a href="#" class="theam_btn">Contact Us</a>
         </div>
+         
+        <div class="dropdown-manu">
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">
+              <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#home">HOME</a>
+              <a href="#guides">GUIDES</a>
+              <a href="#flights">FLIGHTS</a>
+              <a href="#about">ABOUT</a>
+              <div class="drop-contact-btn">
+              <a href="#" class="dropdown-btn">Contact Us</a>
+            </div>
+            </div>
+        </div>
+      </div>
       </div>
     </section>
 
@@ -67,7 +89,7 @@
     </section>
     <!-- main-part end -->
     <!-- card part start -->
-    <section class=" hill  padding">
+    <section class=" hill padding">
       <div class="container">
         <div class="card">
           <div class="card-img">
@@ -112,7 +134,7 @@
     </section>
     <!-- card part end -->
     <!--  aeroplne-part start -->
-    <section class="aeroplne">
+    <section class="aeroplne padding">
       <div class="container">
         <div class="aeroplne-text">
           <img src="./assets/image/aeroplne.png" alt="image"/>
@@ -289,5 +311,28 @@
       </div>
     </footer>
     <!-- footer_part end -->
+
+    <script>
+      /* When the user clicks on the button, 
+      toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("hide");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+      </script>
+
   </body>
 </html>
