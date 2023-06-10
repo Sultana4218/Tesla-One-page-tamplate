@@ -335,6 +335,39 @@ ul li {
 .customer .cards{
   position: relative;
 }
+  /* ===== owl-carousel css ===== */
+.owl-next,
+.owl-prev {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--secondary-color);
+  position: absolute;
+  bottom: 35%;
+}
+.owl-prev {
+  left: 40px;
+}
+.owl-next {
+  right: 40px;
+}
+.owl-prev span,
+.owl-next span {
+  font-size: 40px;
+  color: var(--secondary-color);
+  margin-top: -3px;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: transparent;
+  color: #1b1b1b;
+  text-decoration: none;
+}
+.owl-theme .owl-nav [class*="owl-"] {
+  border-radius: 50%;
+}
+
 /* customer-part css end  */
 /* contact-part css start */
 .contact h3 {

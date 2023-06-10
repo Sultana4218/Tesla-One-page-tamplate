@@ -11,6 +11,15 @@
     <link rel="stylesheet" href="./assets/css/font.all.min.css" />
     <!-- responsive link -->
     <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <!-- ===== owl carousel link ===== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+  integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- ===== owl theme deafult min link ===== -->
+<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+  integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
 
   <body>
@@ -215,32 +224,41 @@
         </div>
       </div>
       <div class="container cards">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
         <div class="customer-card">
-          <img src="./assets/image/man-icon.png" alt="image"/>
+          <img src="./assets/image/man-icon.png" alt="image" class="img-fluid"/>
           <h6>Customer Name</h6>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
             usmod tempor incid idunt ut labore et dolore magna aliqua.
           </p>
         </div>
+        </div>
+        <div class="item">
         <div class="customer-card">
-          <img src="./assets/image/man-icon.png" alt="image"/>
+          <img src="./assets/image/man-icon.png" alt="image" class="img-fluid"/>
           <h6>Customer Name</h6>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
             usmod tempor incid idunt ut labore et dolore magna aliqua.
           </p>
         </div>
+        </div>
+        <div class="item">
         <div class="customer-card">
-          <img src="./assets/image/man-icon.png" alt="image"/>
+          <img src="./assets/image/man-icon.png" alt="image" class="img-fluid"/>
           <h6>Customer Name</h6>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
             usmod tempor incid idunt ut labore et dolore magna aliqua.
           </p>
+        </div>
+        </div>
         </div>
       </div>
     </section>
+
     <!-- customer-part end -->
     <!-- contact-part start -->
     <section class="contact padding">
@@ -310,6 +328,12 @@
     </footer>
     <!-- footer_part end -->
 
+
+    <!-- ===== jquery link ===== -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <!-- ===== main js link ===== -->
+  <script src="./assets/js/main.js"></script>
+ 
     <script>
       /* When the user clicks on the button, 
       toggle between hiding and showing the dropdown content */
@@ -331,6 +355,58 @@
         }
       }
       </script>
+       <!-- ===== owl carousel link ===== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+  integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <!-- <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items:3,
+            loop:true,
+            margin:10,
+            autoplay:true,
+            autoplayTimeout:1000,
+            autoplayHoverPause:true,
+            responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items:3,
+          },
+        },
+        });
+      </script> -->
+
+<script>
+  var owl = $('.owl-carousel');
+  owl.owlCarousel({
+    items: 3,
+    loop: true,
+    dots:false,
+    nav:true,
+    margin: 10,
+    autoplay: false,
+    autoplayTimeout: 0,
+    autoplayHoverPause: false,
+    responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 3,
+        },
+        1000: {
+          items: 3,
+        },
+      },
+
+  });
+</script>
 
   </body>
 </html>
