@@ -26,7 +26,43 @@
 /* xs */
 /* ===== x-small devices (portrait phones, less than 476px) ===== */
 @media (max-width: 475px) {
-
+  .container {
+    width: 450px;
+    flex-wrap: wrap;
+    padding: 0px 15px;
+  }
+  h1 {
+    font-size: 42px;
+    line-height: 43px;
+  }
+  h2 {
+    font-size: 40px;
+    line-height: 41px;
+  }
+  h3 {
+    font-size: 37px;
+    line-height: 36px;
+  }
+  h4 {
+    font-size: 35px;
+  }
+  h5 {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  img {
+    width: 100%;
+    vertical-align: center;
+  }
+  
+  .section_padding {
+    padding: 70px 0;
+  }
+  .theam_btn {
+    font-size: 16px;
+    padding: 10px 40px;
+  }
+  
 }
 /* xs */
 /* ===== x-small devices (portrait phones, less than 413px) ===== */
@@ -145,6 +181,7 @@
     padding: 0;
   }
   .aeroplne-text img {
+    padding-top: 50px;
     width: 60px;
   }
  
