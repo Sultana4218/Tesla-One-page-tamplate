@@ -159,6 +159,8 @@ ul li {
   background-color: #f1f1f1;
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border: 1px solid var(--secondary-color);
+  border-radius: 15px;
   text-align: center;
   z-index: 1;
   
@@ -324,17 +326,23 @@ ul li {
 }
 .customer .customer-card {
   width: 385px;
+  height:427px;
   border: 3px solid var(--secondary-color);
   padding: 40px 50px;
   text-align: center;
   border-radius: 10px;
 }
 .customer .customer-card h6 {
-  margin-bottom: 10px;
+  margin-top: 60px;
 }
 .customer .cards{
   position: relative;
 }
+.customer-card img{
+  width: 100px;
+  height: 121px;
+}
+
   /* ===== owl-carousel css ===== */
 .owl-next,
 .owl-prev {
