@@ -10,10 +10,10 @@
     <!-- font awsom link -->
     <link rel="stylesheet" href="./assets/css/font.all.min.css" />
     <!-- ===== nav link ===== -->
-    <!-- <link
+    <link
     href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
     rel="stylesheet"
-  /> -->
+  />
     <!-- responsive link -->
     <link rel="stylesheet" href="./assets/css/responsive.css" />
     <!-- ===== owl carousel link ===== -->
@@ -36,7 +36,7 @@
 
   <body>
     <!-- header-part start -->
-    <section class="header">
+    <!-- <section class="header">
       <div class="container">
         <div class="navber">
           <div class="logo">
@@ -70,8 +70,8 @@
           </div>
         </div>
       </div>
-    </section>
-    <!-- <header>
+    </section> -->
+    <header>
       <div class="container">
         <a href="#" class="logo">
           <img src="./assets/image/logo.png" alt="" />
@@ -82,14 +82,14 @@
           <li><a href="#">Flights</a></li>
           <li><a href="#">About</a></li>
         </ul>
-        <div class="main">
+        <div class="contact-btn">
           <a href="#" class="theam_btn">Contact us</a>
           <div class="bx bx-menu" id="menu-icon">
             <i class="ri-menu-line"></i>
           </div>
         </div>
       </div>
-    </header> -->
+    </header>
 
     <!-- header-part end -->
     <!-- hero_part start -->
@@ -247,9 +247,96 @@
         </div>
       </div>
     </section>
+    <section id="review_part" class="padding">
+      <div class="container">
+        <div class="review_heading">
+          <h2>Here’s what they have to say...</h2>
+        </div>
+      </div>
+      <div class="container">
+        <div class="owl-carousel owl-theme carousel">
+          <div class="item">
+            <div class="single_customer_item">
+              <div class="single_customer_item_img">
+                <img
+                  src="./assets/image/man-icon.png"
+                  alt="customer-image"
+                />
+              </div>
+
+              <h6>Customer Name</h6>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                ei usmod tempor incid idunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="single_customer_item">
+              <div class="single_customer_item_img">
+                <img
+                  src="./assets/image/man-icon.png"
+                  alt="customer-image"
+                />
+              </div>
+              <h6>Customer Name</h6>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                ei usmod tempor incid idunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="single_customer_item">
+              <div class="single_customer_item_img">
+                <img
+                  src="./assets/image/man-icon.png"
+                  alt="customer-image"
+                />
+              </div>
+              <h6>Customer Name</h6>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                ei usmod tempor incid idunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="single_customer_item">
+              <div class="single_customer_item_img">
+                <img
+                  src="./assets/image/man-icon.png"
+                  alt="customer-image"
+                />
+              </div>
+              <h6>Customer Name</h6>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                ei usmod tempor incid idunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="single_customer_item">
+              <div class="single_customer_item_img">
+                <img
+                  src="./assets/image/man-icon.png"
+                  alt="customer-image"
+                />
+              </div>
+              <h6>Customer Name</h6>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                ei usmod tempor incid idunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- choose-place-part end -->
     <!-- customer-part start -->
-    <section class="customer padding">
+    <!-- <section class="customer padding">
       <div class="container">
         <div class="customer-part">
           <h2>Here’s what they have to say..</h2>
@@ -301,7 +388,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- customer-part end -->
     <!-- contact-part start -->
@@ -400,8 +487,19 @@
     <script src="./assets/js/jquery.min.js"></script>
     <!-- ===== main js link ===== -->
     <script src="./assets/js/main.js"></script>
-
+    <!-- ===== nav query link ===== -->
+    
     <script>
+      let menu = document.querySelector("#menu-icon");
+      let navbar = document.querySelector(".navbar");
+
+      menu.onclick = () => {
+        menu.classList.toggle("bx-x");
+        navbar.classList.toggle("open");
+      };
+    </script>
+    
+    <!-- <script>
       /* When the user clicks on the button, 
     toggle between hiding and showing the dropdown content */
       function myFunction() {
@@ -421,10 +519,46 @@
           }
         }
       };
-    </script>
+    </script> -->
     <!-- ===== owl carousel link ===== -->
-    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+
     <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        nav: true,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 1500,
+        responsive: {
+          0: {
+            items: 1,
+            nav: true,
+          },
+          300: {
+            items: 1,
+            nav: true,
+          },
+          475: {
+            items: 2,
+            nav: true,
+          },
+          641: {
+            items: 3,
+            nav: true,
+          },
+          1000: {
+            items: 3,
+            nav: true,
+            loop: false,
+          },
+        },
+      });
+    </script> 
+
+    <!-- <script>
       
         var owl = $('.owl-carousel');
         owl.owlCarousel({
@@ -448,6 +582,6 @@
           },
         },
       });
-    </script>
+    </script> -->
   </body>
 </html>
