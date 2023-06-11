@@ -61,6 +61,10 @@
   header .navbar.open {
     right: 2%;
     display: block;
+    background-color: rgb(247, 244, 244) !important;
+  }
+  header .navbar.open:hover{
+    color: black !important;
   }
   /* .container {
     width: 990px;
