@@ -141,7 +141,7 @@ header .navbar a {
 }
 header .navbar .active,
 header .navbar a:hover {
-  color: #232323;
+  color: var(--primary-color);
 }
 header .contact-btn {
   display: flex;
@@ -155,7 +155,7 @@ header .contact-btn a {
  
 }
 header .contact-btn .theam_btn {
-  border: 2px solid #232323;
+  border: 2px solid var(--secondary-color);
 }
 header .contact-btn #menu-icon {
   font-size: 35px;
